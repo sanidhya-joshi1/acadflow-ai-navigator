@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
-
-## Project info
+# Welcome to my Lovable project
+*# AcadFlow 💜
 
 **URL**: https://lovable.dev/projects/b9ea3e89-f5bb-42e1-aac3-0a1efb508aab
 
-## How can I edit this code?
+**Smart, Conflict-Free Academics Powered by AI**
 
-There are several ways of editing your application.
+AcadFlow is a modern, multi-page web application designed to help students, faculty, and administrators manage academic schedules efficiently. It aligns with NEP 2020 guidelines and provides AI-powered timetable generation, conflict detection, and analytics — all in a sleek, responsive, and interactive interface.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b9ea3e89-f5bb-42e1-aac3-0a1efb508aab) and start prompting.
+## 🌐 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+### General
+- Modern, eye-catching UI with smooth animations
+- Fully responsive design (desktop + mobile)
+- Dark Mode toggle 🌙 for light/dark themes
+- Consistent branding:
+  - **Light Mode:** White + Purple (#6C63FF) + Teal (#00C7B7)  
+  - **Dark Mode:** Dark Gray (#1E1E2E) + Neon Purple (#A78BFA) + Aqua (#4ADEDE)
 
-**Use your preferred IDE**
+### Landing Page
+- Hero Section: Headline, tagline, description, and call-to-action buttons
+- Features Section: Cards with icons highlighting:
+  - AI Timetable Generator
+  - NEP 2020 Compliance
+  - Smart Conflict Detector
+  - Export & Share (PDF, Excel, Calendar sync)
+  - Scalable & Flexible
+- Contact Section with form and email contact
+- Footer with links: Privacy Policy | Terms | Help
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Authentication
+- Role-based Login: Student | Faculty | Admin
+- Role-specific Sign Up forms:
+  - Student → Name, Roll No, Program, Email, Password
+  - Faculty → Name, Department, Email, Password
+  - Admin → Institution, Email, Password
+- Forgot Password support
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Dashboards (Demo Data Included)
+#### Student
+- Weekly personal timetable (calendar view)
+  - Example:
+    - Monday 9-10 AM: Math (Room 101, Prof. Sharma)
+    - Tuesday 11-12 PM: Physics Lab (Lab A, Dr. Rao)
+    - Wednesday 2-3 PM: AI Elective (Room 204, Dr. Iyer)
+- Credit Tracker (progress bars)
+  - Major: 18/24, Minor: 9/12, AECC: 4/6
+- Assignments panel with demo tasks
+- Export timetable → PDF, Excel, Calendar
 
-Follow these steps:
+#### Faculty
+- Teaching Schedule (demo data)
+  - Example:
+    - Monday 10-11 AM: OOP Class, Room 103
+    - Wednesday 9-11 AM: DBMS Lab, Lab B
+- Workload Overview (hours/week)
+- Leave/Block Hours form
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+#### Admin
+- Global Timetable Manager (dummy data pre-filled)
+- Conflict Detector with alerts
+  - Example: “Conflict detected: Room 101 booked by two classes on Tuesday 11 AM.”
+- Scenario Simulator (e.g., reassign classes if a faculty is unavailable)
+- Reports & Analytics (charts)
+  - Faculty Load Distribution
+  - Room Usage
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Extra Features
+- Notifications 🔔 (e.g., “Your timetable has been updated.”)
+- Smooth transitions between pages
+- Fully functional demo data for instant usability
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠 Technology Stack
+- **Frontend:** HTML, CSS, JavaScript (React.js recommended)
+- **Animations & Interactivity:** CSS3 animations, React transitions
+- **Responsive Design:** Flexbox/Grid, media queries
+- **State Management:** React Context / Redux (optional)
+- **Data Handling:** Demo JSON data; ready to integrate backend
+- **Export Features:** PDF (jsPDF), Excel (SheetJS), Calendar Sync (ICS files)
+- **Dark Mode:** CSS variables / Tailwind/DaisyUI (optional)
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Getting Started
 
-**Use GitHub Codespaces**
+### Prerequisites
+- Node.js ≥ 16
+- npm or yarn
+- Modern web browser
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b9ea3e89-f5bb-42e1-aac3-0a1efb508aab) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/acadflow.git
