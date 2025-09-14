@@ -1,5 +1,5 @@
 # Welcome to my Lovable project
-*# AcadFlow 💜
+## AcadFlow 💜
 
 **URL**: https://lovable.dev/projects/b9ea3e89-f5bb-42e1-aac3-0a1efb508aab
 
